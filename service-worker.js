@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/bootstrap-modal-auth2/precache-manifest.384e85cf03c6e02de89032bee43203a7.js"
+  "/bootstrap-modal-auth2/precache-manifest.8028607e2cd63c3456674822dc130673.js"
 );
 
 workbox.clientsClaim();
