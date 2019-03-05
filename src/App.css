@@ -1,0 +1,139 @@
+* {
+  border-radius: 0px !important;
+}
+
+.App {
+  padding: 20px;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.modal-body {
+  padding: 0px;
+}
+
+.left-block,
+.right-block {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.right-block {
+  padding: 20px;
+  padding-top: 40px;
+}
+
+/** danger theme **/
+.bg-danger .left-block {
+  background: #2e282c;
+}
+
+.bg-danger .right-block {
+  background: #e8543a;
+}
+
+.bg-danger .left-block .btn-primary {
+  background: #e8543a;
+  color: #fff;
+  border: none;
+}
+
+.bg-danger .right-block .btn-primary {
+  background: #2e282c;
+  border: none;
+  margin-top: 20px;
+}
+
+.bg-danger a {
+  color: #e8543a;
+}
+
+.bg-danger .form-control {
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.bg-danger .form-control::placeholder {
+  color: #fff;
+}
+
+.right-block .title,
+.right-block .title-message {
+  color: #fff;
+}
+
+/** primary theme **/
+.bg-primary .left-block {
+  background: #fff;
+}
+
+.bg-primary .right-block {
+  background: #3a97e7;
+}
+
+.bg-primary .left-block .btn-primary {
+  background: #3a97e7;
+  color: #fff;
+  border: none;
+}
+
+.bg-primary .right-block .btn-primary {
+  background: #2e282c;
+  border: none;
+  margin-top: 20px;
+}
+
+.bg-primary a {
+  color: #3a97e7;
+}
+
+.bg-primary .form-control {
+  background: #ecebf3;
+  color: #7d7979;
+  border: none;
+  outline: none;
+}
+
+.bg-primary .form-control::placeholder {
+  color: #7d7979;
+}
+
+/** success theme **/
+.bg-success .left-block {
+  background: #fff;
+}
+
+.bg-success .right-block {
+  background: #54b75b;
+}
+
+.bg-success .left-block .btn-primary {
+  background: #54b75b;
+  color: #fff;
+  border: none;
+}
+
+.bg-success .right-block .btn-primary {
+  background: #2e282c;
+  border: none;
+  margin-top: 20px;
+}
+
+.bg-success a {
+  color: #54b75b;
+}
+
+.bg-success .form-control {
+  background: #ecebf3;
+  color: #7d7979;
+  border: none;
+  outline: none;
+}
+
+.bg-success .form-control::placeholder {
+  color: #7d7979;
+}
