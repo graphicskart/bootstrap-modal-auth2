@@ -102,6 +102,11 @@
   color: #7d7979;
 }
 
+.bg-danger .left-block .title,
+.bg-danger .left-block .title-message {
+  color: #fff;
+}
+
 /** success theme **/
 .bg-success .left-block {
   background: #fff;
